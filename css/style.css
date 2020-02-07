@@ -240,6 +240,7 @@ body{
         background-color: #FFFFFF;
         border: none;
         cursor: pointer;
+        z-index:9999;
     }
     .menu-btn::before{
         content: '';
@@ -278,7 +279,7 @@ body{
         width: 250px;
         padding-bottom: 40px;
     }
-    .active-header{display: flex;}
+    .active-header{display: flex; z-index:1;}
     .logo{margin-bottom: 25px;}
     .menu-list{margin: auto; order: 2; display: flex; flex-direction: column; align-items: center;}
     .menu-link{margin-right: 0; margin-bottom: 17px;}
