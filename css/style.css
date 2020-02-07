@@ -240,7 +240,7 @@ body{
         background-color: #FFFFFF;
         border: none;
         cursor: pointer;
-        z-index:9999;
+        z-index:999999;
     }
     .menu-btn::before{
         content: '';
@@ -278,6 +278,7 @@ body{
         background-color: #9D2929;
         width: 250px;
         padding-bottom: 40px;
+        z-index:1;
     }
     .active-header{display: flex; z-index:1;}
     .logo{margin-bottom: 25px;}
